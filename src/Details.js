@@ -1,7 +1,5 @@
-// Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+// import logogradient from "./assets/logo.svg";
+// import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/projects/project1.jpg";
 // Tech stack images
@@ -19,32 +17,37 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import GNS3 from "./assets/techstack/GNS3_logo.png";
+import cisco from "./assets/techstack/Cisco_pkt.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/EnterprizeNetwork.jpg";
+import projectImage2 from "./assets/projects/UNiNet.PNG";
+import projectImage3 from "./assets/projects/STP.jpg";
+import projectImage4 from "./assets/projects/DHCP_Snooping.jpg";
+import projectImage5 from "./assets/projects/DHCPv6.jpg";
+import projectImage6 from "./assets/projects/EtherChannel.jpg";
+import projectImage7 from "./assets/projects/Port_security.jpg";
+import projectImage8 from "./assets/projects/MultiAcessOspf.jpg";
+import projectImage9 from "./assets/projects/OSPFv2.jpg";
 
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
+// // Logos
+// export const logos = {
+//   logogradient: logogradient,
+//   logo: logo,
+// };
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Mcnen Tommy",
-  tagline: "I am a network Engineer",
+  tagline: "I am a network and Software Engineer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a Network and Software Engineer with expertise in enterprise networking (IPv4, routing, redundancy, security e.t.c) and full-stack development using HTML, CSS, SASS, React, Node.js, Express, Redux and OAuth2. Passionate about building secure, scalable, and efficient solutions.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/mcnen-tommy-89462a24a/",
+  github: "https://github.com/mcnentom",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -53,24 +56,31 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Freelance`,
+    Location: "Remote",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Sep 2021 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Software development Internship",
+    Company: `Teach2Give the Jitu`,
+    Location: "Nyeri",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2024 - May 2024",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Network Engineer",
+    Company: `Free Lance`,
+    Location: "Remote",
+    Type: "Full Time",
+    Duration: "Sep 2022 - Present",
+  },
+   {
+    Position: "Network Engineer Internship",
+    Company: `Necst Motor LTD`,
+    Location: "Kenya",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2025 - June 2025",
   },
 ];
 
@@ -78,17 +88,17 @@ export const workDetails = [
 export const eduDetails = [
   {
     Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Company: "Udemy, YouTube, Google, Code Academy",
     Location: "Online",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Sep 2021 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Network Engineer",
+    Company: `Cisco network`,
+    Location: "Online",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Sep 2022 - Present",
   },
 ];
 
@@ -108,6 +118,8 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  GNS3: GNS3,
+  cisco: cisco
 };
 
 // Enter your Project Details here
@@ -160,6 +172,33 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Project title 6",
     image: projectImage6,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 7",
+    image: projectImage7,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 8",
+    image: projectImage8,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Project title 9",
+    image: projectImage9,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
