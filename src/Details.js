@@ -1,7 +1,7 @@
 // import logogradient from "./assets/logo.svg";
 // import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/projects/project1.jpg";
+import profile from "./assets/projects/Net_Engineer_icon.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -125,85 +125,85 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Enterprize Network",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Enterprize-network",
   },
   {
-    title: "Project title 2",
+    title: "University Network",
     image: projectImage2,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/UniversityNet",
   },
   {
-    title: "Project title 3",
+    title: "Spanning Tree Protocol",
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/STP",
   },
   {
-    title: "Project title 4",
+    title: "DHCP Snooping",
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/DHCPAttacks",
   },
   {
-    title: "Project title 5",
+    title: "DHCP IPV6",
     image: projectImage5,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/DHCPv6",
   },
   {
-    title: "Project title 6",
+    title: "EtherChannel",
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/EtherChannel",
   },
   {
-    title: "Project title 7",
+    title: "Port Security",
     image: projectImage7,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/PortSecurityVLANAttackMitigation",
   },
   {
-    title: "Project title 8",
+    title: "Multi Access OSPF",
     image: projectImage8,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/MultiAcess_OSPF",
   },
   {
-    title: "Project title 9",
+    title: "OSPF Version 2",
     image: projectImage9,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/Single-Area_OSPFv2",
   },
 ];
 

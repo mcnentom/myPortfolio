@@ -64,7 +64,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              View Code
+              View Project
             </a>
           </div>
         </div>
