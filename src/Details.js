@@ -29,6 +29,7 @@ import projectImage6 from "./assets/projects/EtherChannel.jpg";
 import projectImage7 from "./assets/projects/Port_security.jpg";
 import projectImage8 from "./assets/projects/MultiAcessOspf.jpg";
 import projectImage9 from "./assets/projects/OSPFv2.jpg";
+import projectImage10 from "./assets/projects/IPSec.jpg"
 
 // // Logos
 // export const logos = {
@@ -127,83 +128,83 @@ export const projectDetails = [
   {
     title: "Enterprize Network",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This is a sample project that covers a design of an enterprize that deals in Banking and Insurance implementing multi-floor network.`,
+    techstack: `Hostname,Vty,line console and basic login passwords,Secure Shell,Vlan segmentation,trunking,port security and inter-vlan routing,OSPF dynamic routing, Cisco ASA firewall security,IP telephony,DHCP,DNS,NTP, FTP server,Email and Http services, NAT`,
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Enterprize-network",
   },
   {
     title: "University Network",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This Project covers the design of a university/Enterprize network which can be scaled to meet user requirements.`,
+    techstack: `Basic Config, Vlan and inter-vlan routing, Subnetting and ip addressing, Wireless network Configurations,Telephony service, Access list and NAT, FTP, Email, DHCP, DNS, EtherChannel
+    , Firewall Basic configs, Trunking, Access ports configs,OSPF, HSRP, Portfast, BPDU Guard`,
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/UniversityNet",
   },
   {
     title: "Spanning Tree Protocol",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This is a sample project that covers a Layer 2 protocol defined in IEEE 802.1D. that prevents loops in a switched Ethernet network`,
+    techstack: "STP",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/STP",
   },
   {
-    title: "DHCP Snooping",
+    title: "DHCP Attacks",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This a sample project that covers the vulnerabilities of DHCP addressing,ARP and STP attacks covering the mitigation strategies too`,
+    techstack: "Port Security, DHCP Snooping, DAI, Portfast & BPDU Guard",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/DHCPAttacks",
   },
   {
     title: "DHCP IPV6",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This sample project covers DHCPv6, the IPv6 version of DHCP (like we use in IPv4 to give out IPs automatically).`,
+    techstack: "IPv6, SLAAC, Stateless, Stateful",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/DHCPv6",
   },
   {
     title: "EtherChannel",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This project covers a load balancing technique that aggregates multiple links between intermediary devices into bundles enabling a network to have redundancy, loop prevention and increased bandwidth.`,
+    techstack: "PAGB & LACP",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/EtherChannel",
   },
   {
-    title: "Port Security",
+    title: "Port Security & Vlan Attacks",
     image: projectImage7,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This project covers a mitigation technique used to limit the number of mac address connected on a port which helps prevent layer 2 attacks such as MAC addresses table flooding`,
+    techstack: "Port Security, DTP Disabling, Native Vlan",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/PortSecurityVLANAttackMitigation",
   },
   {
     title: "Multi Access OSPF",
     image: projectImage8,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This mini project that covers multi-access network where multiple routers share the same physical medium/subnet.`,
+    techstack: "IP addressing, OSPF, DR/BDR",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/MultiAcess_OSPF",
   },
   {
     title: "OSPF Version 2",
     image: projectImage9,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `This is sample project that cover OSPFv2 which is the Interior Gateway Protocol (IGP) for IPv4. Single Area means all routers and links belong to Area 0 (the backbone)`,
+    techstack: "OSPFv2",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/Single-Area_OSPFv2",
+  },
+  {
+    title: "IPSEC Tunneling",
+    image: projectImage10,
+    description: `This is a sample project that covers IPsec (internet protocol secure), a suite of protocols used to secure IP communications by authenticating and encrypting each IP packet in a communication session.`,
+    techstack: "IKE SA, IPSEC SA",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/mcnentom/Network_projects/tree/main/Ipsec",
   },
 ];
 
