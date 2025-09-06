@@ -1,0 +1,7 @@
+{
+  "name": "my-portfolio",
+  "compatibility_date": "2025-09-06",
+  "assets": {
+    "directory": "./build"
+  }
+}
