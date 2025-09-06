@@ -19,6 +19,8 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import GNS3 from "./assets/techstack/GNS3_logo.png";
 import cisco from "./assets/techstack/Cisco_pkt.png";
+import Kali from "./assets/projects/kali-linux-kali-linux-logo-png.png";
+import DHCP from "./assets/projects/DHCp.jpg";
 // Porject Images
 import projectImage1 from "./assets/projects/EnterprizeNetwork.jpg";
 import projectImage2 from "./assets/projects/UNiNet.PNG";
@@ -29,7 +31,9 @@ import projectImage6 from "./assets/projects/EtherChannel.jpg";
 import projectImage7 from "./assets/projects/Port_security.jpg";
 import projectImage8 from "./assets/projects/MultiAcessOspf.jpg";
 import projectImage9 from "./assets/projects/OSPFv2.jpg";
-import projectImage10 from "./assets/projects/IPSec.jpg"
+import projectImage10 from "./assets/projects/IPSec.jpg";
+import projectImage11 from "./assets/projects/vrf.png"
+import projectImage12 from "./assets/projects/mpls.jpg"
 
 // // Logos
 // export const logos = {
@@ -120,7 +124,9 @@ export const techStackDetails = {
   github: github,
   figma: figma,
   GNS3: GNS3,
-  cisco: cisco
+  cisco: cisco,
+  kali: Kali,
+  DHCP: DHCP
 };
 
 // Enter your Project Details here
@@ -205,6 +211,22 @@ export const projectDetails = [
     techstack: "IKE SA, IPSEC SA",
     previewLink: "https://google.com",
     githubLink: "https://github.com/mcnentom/Network_projects/tree/main/Ipsec",
+  },
+   {
+    title: "Virtual Routing&Forwarding",
+    image: projectImage11,
+    description: `This is a sample project that covers network segmentation / virtualization network slicing technology used in traffic isoaltion and QOS implementation.`,
+    techstack: "Routing Table Virtualization, RIB/FIB Separation, RDs, RTs",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/mcnentom/Gns3/tree/main/VRF",
+  },
+   {
+    title: "MultiProtocol Label Switching",
+    image: projectImage12,
+    description: `This is a sample project that covers WAN/Service Provider Layer 2.5 switching technology that combines elements of routing, switching and virtualization`,
+    techstack: "VRFs, RDs, RTs, MP-BGP, MPLS Forwarding Plane, CE to PE Routing, OSPF(iGP), Loopbacks",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/mcnentom/Gns3/tree/main/MPLS_NETWORK",
   },
 ];
 

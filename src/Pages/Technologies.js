@@ -16,7 +16,9 @@ function Technologies() {
     npm,
     postman, 
     GNS3,
-    cisco
+    cisco,
+    kali,
+    DHCP
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -36,6 +38,7 @@ function Technologies() {
         <img src={redux} title="Redux" alt="" />
         <img src={sass} title="SASS" alt="" />
         <img src={tailwind} title="tailwind" alt="" />
+        <img src={DHCP} title="DHCP" alt="DHCP" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -50,6 +53,7 @@ function Technologies() {
         <img src={postman} title="Postman" alt="Postman" />
         <img src={GNS3} title="GNS3" alt="GNS3" />
         <img src={cisco} title="cisco" alt="cisco" />
+        <img src={kali} title="kali" alt="kali" />
       </section>
     </main>
   );
